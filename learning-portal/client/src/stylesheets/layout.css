@@ -1,0 +1,60 @@
+/* Protected Routes Layout CSS */
+
+.layout {
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: var(--primary);
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  gap: 10px;
+  font-size: 1.2rem;
+  border-left: 3px solid var(--primary);
+}
+
+.active-menu-item {
+  border-left: 3px solid var(--light);
+}
+
+.body {
+  width: 100%;
+}
+
+.body-header {
+  background-color: var(--primary);
+  width: 100%;
+  padding: 10px;
+}
+
+.body-content-out {
+  background-color: var(--primary);
+  height: calc(100vh - 76px);
+}
+.body-content {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 100%;
+  background-color: var(--light);
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 1200px) {
+  .body-content-out {
+    height: calc(100vh - 52px);
+  }
+}

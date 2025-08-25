@@ -1,0 +1,26 @@
+/* Color Scheme */
+
+:root {
+  --primary: #2b2a4c;
+  --secondary: #eee2de;
+  --tertiary: #b31312;
+  --palette: #eb6835;
+  --success: #28a745;
+  --danger: #dc3454;
+  --warning: #ffc107;
+  --info: #17a2b8;
+  --light: #f1f1f1;
+  --dark: #212121;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.bg-light {
+  background-color: var(--light) !important;
+}
+
+.bg-white {
+  background-color: #fff;
+}

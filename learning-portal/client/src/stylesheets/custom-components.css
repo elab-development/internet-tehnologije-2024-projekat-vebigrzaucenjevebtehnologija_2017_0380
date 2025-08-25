@@ -1,0 +1,132 @@
+.card {
+  box-shadow: 0 0 1px var(--dark);
+}
+
+.exam-card {
+  box-shadow: 0 0 1px var(--dark);
+  transition: transform 0.2s;
+}
+
+.exam-card:hover {
+  transform: scale(1.05);
+}
+
+.exam-category-icon {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
+.question-card {
+  border: 2px solid var(--primary);
+  border-radius: 10px;
+}
+
+.answer-correct {
+  background-color: rgba(40, 167, 69, 0.5);
+}
+
+.answer-wrong {
+  background-color: rgba(220, 52, 84, 0.5);
+}
+
+.divider {
+  border-bottom: 1.5px solid var(--dark);
+}
+
+.divider-title {
+  border-bottom: 2px solid var(--primary);
+  margin: 20px 0px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* Loader Spinner */
+
+.loader-parent {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 6px solid var(--palette);
+  border-left-color: transparent;
+  animation: loader 1.2s linear infinite;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Table */
+
+.ant-pagination-item-active {
+  border-color: var(--primary) !important;
+}
+
+.ant-pagination-item-active a {
+  color: var(--primary) !important;
+}
+
+.table-action,
+.table-action-delete {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.table-action-delete {
+  color: var(--tertiary);
+}
+
+/* Exam */
+
+.option {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 2px;
+  border-radius: 10px;
+}
+
+.selected-option {
+  border-radius: 10px;
+  border: 2px solid var(--secondary);
+  background-color: rgba(238, 225, 221, 0.5);
+}
+
+.result {
+  background-color: rgba(221, 232, 238, 0.5);
+  max-width: max-content;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.animation {
+  height: 200px;
+}
+
+.timer {
+  background-color: var(--tertiary);
+  color: white !important;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}

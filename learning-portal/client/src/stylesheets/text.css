@@ -1,0 +1,83 @@
+/* Text Sizes */
+
+.text-4xl {
+  font-size: 2rem;
+  line-height: 3.5rem;
+}
+.text-3xl {
+  font-size: 2rem;
+  line-height: 3.5rem;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+.text-md {
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1rem;
+}
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+}
+
+/* Text Alignments */
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+/* Text Colors */
+
+.text-color-primary {
+  color: var(--primary);
+}
+.text-color-primary:hover {
+  color: var(--primary);
+  opacity: 0.75;
+}
+.text-color-secondary {
+  color: var(--secondary);
+}
+.text-color-tertiary {
+  color: var(--tertiary);
+}
+.text-color-palette {
+  color: var(--palette);
+}
+.text-color-light {
+  color: var(--light);
+}
+.text-color-success {
+  color: var(--success);
+}
+.text-color-danger {
+  color: var(--danger);
+}
+
+/* Text Weight */
+.text-bold {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+  .text-4xl {
+    display: none;
+  }
+}

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@import url('./stylesheets/alignments.css');
+@import url('./stylesheets/text.css');
+@import url('./stylesheets/theme.css');
+@import url('./stylesheets/custom-components.css');
+@import url('./stylesheets/form-elements.css');
+@import url('./stylesheets/layout.css');
+
+* {
+  font-family: 'Montserrat', sans-serif !important;
+}

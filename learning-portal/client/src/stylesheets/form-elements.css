@@ -1,0 +1,81 @@
+input {
+  height: 40px;
+  padding: 10px 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  width: 100%;
+}
+
+select {
+  height: 40px;
+  padding: auto;
+  padding-left: 15px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.ant-form-item {
+  margin-bottom: 5px !important;
+}
+
+.primary-contained-btn {
+  background-color: var(--primary);
+  color: var(--light);
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+.primary-outlined-btn {
+  background-color: var(--light);
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.primary-warning-btn {
+  background-color: var(--warning);
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.primary-outlined-icon-btn {
+  background-color: var(--light);
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.primary-contained-modal-btn {
+  background-color: var(--primary);
+  color: var(--light);
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+.primary-outlined-modal-btn {
+  background-color: var(--light);
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+.succes-outlined-btn {
+  background-color: var(--light);
+  color: var(--success);
+  border: 2px solid var(--success);
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.filter {
+  max-width: 250px;
+}
